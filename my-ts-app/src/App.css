@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+.header {
+  max-width: 100%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #16b67f;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+.logo {
+  padding-left: 15px;
+  max-width: 90px;
+  max-height: 90px;
+}
+.currentCurrency {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.currentCurrency span {
+  border: #fff solid 1px;
+  margin: 0 1px;
+  border-bottom: none;
+  padding: 2px;
+}
+.currentCurrency span:last-child {
+  border-bottom: #fff solid 1px;
+}
